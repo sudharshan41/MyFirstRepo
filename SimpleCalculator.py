@@ -1,6 +1,6 @@
 print("simple calculator")
 print("select an operation")
-print("1.addition\n2.subtraction \n3.multiplication\n4.division\n5.modulus")
+print("1.addition\n2.subtraction \n3.multiplication\n4.division\n5.modulus\n6.FloutDivision")
 while True:
     operation=int(input("Enter an option>> "))
     num1=float(input("enter num1>>"))
@@ -16,6 +16,8 @@ while True:
         print(num1/num2)
     elif operation==5:
         print(num1%num2)
+    elif operation==6:
+        print(num1//num2)
 
 
     else:
